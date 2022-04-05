@@ -44,7 +44,6 @@
         <!-- Home -->
         <section class="home pt-10  d-flex align-items-center" id="header">
             <div class="container text-light py-5 "  data-aos="fade-right"> 
-                
                 <h1 class="headline">The Best <span class="green">Villa</span><br>in Ciwidey Bandung</h1>
                 <h4 class="highlight-text"></h4>
                 <p class="para para-light py-3"></p>
@@ -104,11 +103,11 @@
         <!-- Services -->
         <section class="services d-flex align-items-center py-5" id="services">
             <div class="container text-light">
-                <div class="text-center pb-4" >
-                    <p data-aos="zoom-in">FASILITAS</p> 
-                    <h2 class="py-2" data-aos="zoom-in">Jelajahi fasilitas di area sekitar</h2>
-                </div>
                 <div class="row gy-4 py-2" data-aos="zoom-in">
+                    <div class="text-center pb-4" >
+                        <p data-aos="zoom-in">FASILITAS</p> 
+                        <h2 class="py-2" data-aos="zoom-in">Jelajahi fasilitas di area sekitar</h2>
+                    </div>
                     <div class="col-lg-4">
                         <div class="card bg-transparent">
                             <i class="fas fa-road fa-3x fa-2x"></i>
@@ -159,11 +158,11 @@
         <!-- Plans -->
         <section class="plans d-flex align-items-center py-5" id="gallery">
             <div class="container text-light" >
-                <div class="text-center pb-4">
-                    <p data-aos="zoom-in">GALERI</p>
-                    <h4 class="py-2" data-aos="zoom-in">Abadikan pengalaman Anda bersama kami dengan keindahan alam di sekitar.</h4>
-                </div>
                 <div class="row gy-4" data-aos="zoom-in">
+                    <div class="text-center pb-4">
+                        <p data-aos="zoom-in">GALERI</p>
+                        <h4 class="py-2" data-aos="zoom-in">Abadikan pengalaman Anda bersama kami dengan keindahan alam di sekitar.</h4>
+                    </div>
                     <div class="row">
                         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                             <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
