@@ -102,7 +102,7 @@
     
     
         <!-- Services -->
-        <section class="services d-flex align-items-center py-5" id="services">
+        <section class="services d-flex align-items-center pt-20 pb-20" id="services">
             <div class="container text-light">
                 <div class="text-center pb-4" >
                     <p data-aos="zoom-in">FASILITAS</p> 
@@ -162,7 +162,7 @@
             <div class="container text-light" >
                 <div class="text-center pb-4">
                     <p data-aos="zoom-in">GALERI</p>
-                    <h2 class="py-2" data-aos="zoom-in">Abadikan pengalaman Anda bersama kami dengan keindahan alam di sekitar.</h2>
+                    <h4 class="py-2" data-aos="zoom-in">Abadikan pengalaman Anda bersama kami dengan keindahan alam di sekitar.</h4>
                 </div>
                 <div class="row gy-4" data-aos="zoom-in">
                     <div class="row">
