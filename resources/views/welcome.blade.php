@@ -102,12 +102,11 @@
     
     
         <!-- Services -->
-        <section class="services d-flex align-items-center pt-20 pb-20" id="services">
+        <section class="services d-flex align-items-center py-5" id="services">
             <div class="container text-light">
                 <div class="text-center pb-4" >
                     <p data-aos="zoom-in">FASILITAS</p> 
                     <h2 class="py-2" data-aos="zoom-in">Jelajahi fasilitas di area sekitar</h2>
-                    <p class="para-light" data-aos="zoom-in">Selain pemandangan yang indah, Villa Mustika Ciwidey juga menyediakan fasilitas-fasilitas yang dapat Anda nikmati di halaman sekitar secara gratis bersama keluarga tercinta. Villa Mustika CIwidey memberikan pengalaman menarik untuk Anda nikmati. </p>
                 </div>
                 <div class="row gy-4 py-2" data-aos="zoom-in">
                     <div class="col-lg-4">
