@@ -62,7 +62,7 @@
     
         <!-- Information -->
         <section class="information">
-            <div class="container-fluid">  
+            <div class="container">  
                 <div class="row text-light">
                     <div class="col-lg-4 text-center text-dark p-5" data-aos="zoom-in">
                         <i class="fas fa-home fa-3x p-2"></i>
@@ -156,8 +156,8 @@
         </section> <!-- end of services -->
     
     
-        <!-- Gallery -->
-        {{-- <section class="plans d-flex align-items-center py-5" id="gallery">
+        <!-- Plans -->
+        <section class="plans d-flex align-items-center py-5" id="gallery">
             <div class="container text-light" >
                 <div class="text-center pb-4">
                     <p data-aos="zoom-in">GALERI</p>
@@ -276,7 +276,7 @@
                     </div>
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
-        </section> <!-- end of Gallery -->     --}}
+        </section> <!-- end of plans -->    
     
         <!-- Location -->
         <section class="location text-light" id="contact">
