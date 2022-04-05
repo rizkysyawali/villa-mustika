@@ -84,7 +84,7 @@
         
     
         <!-- About -->
-        <section class="about text-light" id="about">
+        <section class="about text-light pt-5" id="about">
             <div class="container" >
                 <div class="row d-flex align-items-center">
                     <div class="col-lg-7" data-aos="fade-right">
@@ -275,28 +275,28 @@
                     </div>
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
-        </section> <!-- end of plans -->    
+        </section> <!-- end of gallery -->    
     
         <!-- Location -->
-        <section class="location text-light d-flex align-items-center py-5" id="contact">
+        <section class="location text-light d-flex align-items-center pt-5" id="contact">
             <div class="container-fluid" >
                 <div class="row" >
                     <div class="col-lg-4 d-flex justify-item-center text-dark p-5">
-                        <div class="p-2"><i class="far fa-map fa-3x"></i></div>
+                        <div class="p-2"><i class="far fa-map fa-3x" data-aos="zoom-in"></i></div>
                         <div class="ms-2" data-aos="zoom-in">
                             <h6>Alamat</h6>
                             <p>Jl. Citiwu Kp Cikoneng No.25, Alamendah, Kec. Ciwidey Kabupaten Bandung</p>
                         </div>
                     </div>
                     <div class="col-lg-4 d-flex justify-item-center text-dark p-5" >
-                        <div class="px-4"><i class="fas fa-mobile-alt fa-3x"></i></div>
+                        <div class="px-4"><i class="fas fa-mobile-alt fa-3x" data-aos="zoom-in"></i></div>
                         <div class="ms-2" data-aos="zoom-in">
                             <h6>Informasi dan Pemesanan</h6>
                             <p>0812-3450-5677</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex justify-item-center text-dark p-5" >
-                        <div class="px-3"><i class="far fa-envelope fa-3x"></i></div>
+                    <div class="col-lg-4 d-flex justify-item-center text-dark p-5"  >
+                        <div class="px-3"><i class="far fa-envelope fa-3x"  data-aos="zoom-in" ></i></div>
                         <div class="ms-2" data-aos="zoom-in">
                             <h6>Email</h6>
                             <p>marketing@javateknologi.com</p>
@@ -361,17 +361,5 @@
         
 @endsection
 @push('script')
-
-<script>
-    let modalId = $('#image-gallery');
-
-$(document)
-  .ready(function () {
-
-    loadGallery(true, 'a.thumbnail');
-
-    }
-  });
-</script>
     
 @endpush

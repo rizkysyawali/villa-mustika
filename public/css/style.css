@@ -95,7 +95,6 @@ li {
 
 /* Section Background */
 .home,
-.about,
 .services,
 .plans,
 .work,
@@ -103,6 +102,12 @@ li {
 	height: 110vh;
 	position: relative;
 }
+
+.about {
+	height: 90vh;
+	position: relative;
+}
+
 
 .services,
 .work,

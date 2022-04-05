@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="Villa Ciwidey Bandung" content="Villa Ciwidey Bandung">
-        <meta name="Villa Mustika Ciwidey" content="Villa Mustika Ciwidey">
+        <meta name="Villa Mustika Ciwidey" content="Villa Mustika Ciwidey, Sewa Villa Murah Bandung, Sewa Villa Murah Bandung Selatan">
 
         <title>@yield('title')</title>
 
