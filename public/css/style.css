@@ -362,45 +362,6 @@ li {
 	transform: translate(5px, 5px);
 }
 
-/* Email - Newsletter Button */
-.btn-secondary {
-	color: black;
-	border-width: 2px;
-	padding: 10px 30px;
-	border-image-slice: 1;
-	background-image: none;
-	background: transparent;
-	border-image-source: var(--gradient);
-}
-
-.btn-secondary:hover {
-	color: black;
-	padding: 10px 30px;
-	background-image: var(--gradient);
-}
-
-/* Other Pages Button */
-.btn-tertiary {
-	color: black;
-	border-radius: 0;
-	border-width: 2px;
-	padding: 10px 30px;
-	border-image-slice: 1;
-	background-image: none;
-	background: transparent;
-	border-image-source: var(--gradient);
-	box-shadow: 5px 5px 0px 0px var(--secondary);
-}
-
-.btn-tertiary:hover {
-	color: black;
-	box-shadow: none;
-	border-radius: 0;
-	padding: 10px 30px;
-	transform: translate(5px, 5px);
-}
-
-
 /********************/
 /*     Services     */
 /********************/
@@ -437,23 +398,37 @@ li {
 	margin-bottom: 15px;
   }
 
-  .lightbox-gallery {
-    background-image: linear-gradient(#4A148C, #E53935);
-    background-repeat: no-repeat;
-    color: #000;
-    overflow-x: hidden
+  .plans .card {
+	padding: 20px;
+	border: 2px solid white;
 }
 
-.lightbox-gallery p {
-    color: #fff
+
+/* Dropdown Menu */
+.navbar .dropdown .dropdown-menu {
+  	animation: fadeDropdown 0.2s; /* required for the fade animation */
 }
 
-.lightbox-gallery h2 {
-    font-weight: bold;
-    margin-bottom: 40px;
-    padding-top: 40px;
-    color: #fff
+@-webkit-keyframes fadeDropdown {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
+
+@keyframes fadeDropdown {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
 
 /***********************/
 /*     location     */
@@ -715,7 +690,7 @@ a.zocial {
 	
 	-moz-font-smoothing: antialiased;
 	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+	
 }
 
 /* Gradients */
@@ -734,7 +709,7 @@ a.zocial {
 /*************************/
 /*     Media Queries     */
 /*************************/
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px){
 	.services,
 	.work,
 	.testimonial,
@@ -831,24 +806,8 @@ a.zocial {
 
 	.para {
 		width: 100%;
+	
 	}
-
-	.swiper-container {
-		width: 92%;
-	}
-
-	.swiper-button-prev {
-		left: -16px;
-		width: 22px;
-		background-size: 22px 34px;
-	}
-
-	.swiper-button-next {
-		right: -16px;
-		width: 22px;
-		background-size: 22px 34px;
-	}
-
 	.home_text {
 		display: none;
 	}

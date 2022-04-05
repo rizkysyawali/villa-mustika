@@ -84,7 +84,7 @@
         
     
         <!-- About -->
-        <section class="about d-flex align-items-center text-light py-5" id="about">
+        <section class="about text-light" id="about">
             <div class="container" >
                 <div class="row d-flex align-items-center">
                     <div class="col-lg-7" data-aos="fade-right">
@@ -101,7 +101,7 @@
     
     
         <!-- Services -->
-        <section class="services d-flex align-items-center py-5" id="services">
+        <section class="services d-flex align-items-center py-5" id="facility">
             <div class="container text-light">
                 <div class="row gy-4 py-2" data-aos="zoom-in">
                     <div class="text-center pb-4" >
@@ -155,7 +155,7 @@
         </section> <!-- end of services -->
     
     
-        <!-- Plans -->
+        <!-- gallery -->
         <section class="plans d-flex align-items-center py-5" id="gallery">
             <div class="container text-light" >
                 <div class="row gy-4" data-aos="zoom-in">
@@ -278,26 +278,26 @@
         </section> <!-- end of plans -->    
     
         <!-- Location -->
-        <section class="location text-light" id="contact">
-            <div class="container-fluid" data-aos="zoom-in">
-                <div class="row">
+        <section class="location text-light d-flex align-items-center py-5" id="contact">
+            <div class="container-fluid" >
+                <div class="row" >
                     <div class="col-lg-4 d-flex justify-item-center text-dark p-5">
                         <div class="p-2"><i class="far fa-map fa-3x"></i></div>
-                        <div class="ms-2">
+                        <div class="ms-2" data-aos="zoom-in">
                             <h6>Alamat</h6>
                             <p>Jl. Citiwu Kp Cikoneng No.25, Alamendah, Kec. Ciwidey Kabupaten Bandung</p>
                         </div>
                     </div>
                     <div class="col-lg-4 d-flex justify-item-center text-dark p-5" >
                         <div class="px-4"><i class="fas fa-mobile-alt fa-3x"></i></div>
-                        <div class="ms-2">
+                        <div class="ms-2" data-aos="zoom-in">
                             <h6>Informasi dan Pemesanan</h6>
                             <p>0812-3450-5677</p>
                         </div>
                     </div>
                     <div class="col-lg-4 d-flex justify-item-center text-dark p-5" >
                         <div class="px-3"><i class="far fa-envelope fa-3x"></i></div>
-                        <div class="ms-2">
+                        <div class="ms-2" data-aos="zoom-in">
                             <h6>Email</h6>
                             <p>marketing@javateknologi.com</p>
                         </div>
@@ -326,7 +326,6 @@
                         <div class="single-footer-caption mb-50">
                             <div class="footer-number mb-50 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
                                 <h4 class="green mb-4">Sosial Media</h4>
-                                <a href="" target="_blank" class="zocial facebook">Facebook</a><br>
                                 <a href="https://www.instagram.com/villamustikaciwidey/" target="_blank" class="zocial instagram">Instagram</a><br>
                             </div>
                         </div>
@@ -371,90 +370,7 @@ $(document)
 
     loadGallery(true, 'a.thumbnail');
 
-    //This function disables buttons when needed
-    function disableButtons(counter_max, counter_current) {
-      $('#show-previous-image, #show-next-image')
-        .show();
-      if (counter_max === counter_current) {
-        $('#show-next-image')
-          .hide();
-      } else if (counter_current === 1) {
-        $('#show-previous-image')
-          .hide();
-      }
     }
-
-    /**
-     *
-     * @param setIDs        Sets IDs when DOM is loaded. If using a PHP counter, set to false.
-     * @param setClickAttr  Sets the attribute for the click handler.
-     */
-
-    function loadGallery(setIDs, setClickAttr) {
-      let current_image,
-        selector,
-        counter = 0;
-
-      $('#show-next-image, #show-previous-image')
-        .click(function () {
-          if ($(this)
-            .attr('id') === 'show-previous-image') {
-            current_image--;
-          } else {
-            current_image++;
-          }
-
-          selector = $('[data-image-id="' + current_image + '"]');
-          updateGallery(selector);
-        });
-
-      function updateGallery(selector) {
-        let $sel = selector;
-        current_image = $sel.data('image-id');
-        $('#image-gallery-title')
-          .text($sel.data('title'));
-        $('#image-gallery-image')
-          .attr('src', $sel.data('image'));
-        disableButtons(counter, $sel.data('image-id'));
-      }
-
-      if (setIDs == true) {
-        $('[data-image-id]')
-          .each(function () {
-            counter++;
-            $(this)
-              .attr('data-image-id', counter);
-          });
-      }
-      $(setClickAttr)
-        .on('click', function () {
-          updateGallery($(this));
-        });
-    }
-  });
-
-// build key actions
-$(document)
-  .keydown(function (e) {
-    switch (e.which) {
-      case 37: // left
-        if ((modalId.data('bs.modal') || {})._isShown && $('#show-previous-image').is(":visible")) {
-          $('#show-previous-image')
-            .click();
-        }
-        break;
-
-      case 39: // right
-        if ((modalId.data('bs.modal') || {})._isShown && $('#show-next-image').is(":visible")) {
-          $('#show-next-image')
-            .click();
-        }
-        break;
-
-      default:
-        return; // exit this handler for other keys
-    }
-    e.preventDefault(); // prevent the default action (scroll / move caret)
   });
 </script>
     
