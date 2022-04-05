@@ -26,7 +26,7 @@
                                 <a class="nav-link" href="#about">Tentang</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#services">Fasilitas</a>
+                                <a class="nav-link" href="#facility">Fasilitas</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#gallery">Galeri</a>
@@ -65,7 +65,7 @@
             <div class="container-fluid">  
                 <div class="row text-light">
                     <div class="col-lg-4 text-center text-dark p-5" data-aos="zoom-in">
-                        <i class="fas fa-road fa-3x p-2"></i>
+                        <i class="fas fa-home fa-3x p-2"></i>
                         <h4 class="py-3">Lokasi</h4>
                         <p class="para-light">Lokasi yang sangat terjangkau hanya 45 menit dari pintu Tol Soroja Bandung.</p>
                     </div>
@@ -111,42 +111,42 @@
                 <div class="row gy-4 py-2" data-aos="zoom-in">
                     <div class="col-lg-4">
                         <div class="card bg-transparent">
-                            <i class="fas fa-home fa-2x"></i>
+                            <i class="fas fa-road fa-3x fa-2x"></i>
                             <h4 class="py-2">JOGGING TRACK</h4>Bagi Anda yang gemar berolahraga lari pagi, kami menyediakan arena Joging Track yang dapat Anda gunakan.
                             <p class="para-light"></p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="card bg-transparent">
-                            <i class="fas fa-wifi fa-2x"></i>
+                            <i class="fas fa-wifi fa-3x"></i>
                             <h4 class="py-2"> HOME WIFI</h4>
                             <p class="para-light">Nikmati hari-hari Anda dengan bermedia sosial atapun streaming Youtube dengan Wifi gratis yang telah kami sediakan. </p>
                         </div>                    
                     </div>
                     <div class="col-lg-4">
                         <div class="card bg-transparent">
-                            <i class="fas fa-phone fa-2x"></i>
+                            <i class="fas fa-seedling fa-3x"></i>
                             <h4 class="py-2">STRAWBERRY FARM</h4>
                             <p class="para-light">Untuk Anda pecinta buah strawberry, Anda dapat memetik sendiri di kebun strawberi yang telah kami sediakan untuk Anda.</p>
                         </div>                    
                     </div>
                     <div class="col-lg-4">
                         <div class="card bg-transparent">
-                            <i class="fas fa-mobile fa-2x"></i>
+                            <i class="fas fa-swimmer fa-3x"></i>
                             <h4 class="py-2">PRIVATE POOL</h4>
                             <p class="para-light">Fasilitas Kolam Renang pribadi yang tersedia di Area sekitar Villa yang dapat Anda nikmati bersama keluarga Anda.</p>
                         </div>                    
                     </div>
                     <div class="col-lg-4">
                         <div class="card bg-transparent">
-                            <i class="fas fa-home fa-2x"></i>
+                            <i class="fas fa-home fa-3x"></i>
                             <h4 class="py-2">SECURITY</h4>
                             <p class="para-light">Selain memberikan kenyamanan, kami juga memberikan keamanan untuk Anda dengan menyediakan keamanan 24 jam.</p>
                         </div>                    
                     </div>
                     <div class="col-lg-4">
                         <div class="card bg-transparent">
-                            <i class="fas fa-tv fa-2x"></i>
+                            <i class="fas fa-fish fa-3x"></i>
                             <h4 class="py-2">FISHING AREA</h4>
                             <p class="para-light">Bagi Anda yang hobi mancing, kami sediakan kolam ikan yang dapat Anda gunakan untuk memancing ikan.</p>
                         </div>                    
@@ -156,8 +156,8 @@
         </section> <!-- end of services -->
     
     
-        <!-- Plans -->
-        <section class="plans d-flex align-items-center py-5" id="gallery">
+        <!-- Gallery -->
+        {{-- <section class="plans d-flex align-items-center py-5" id="gallery">
             <div class="container text-light" >
                 <div class="text-center pb-4">
                     <p data-aos="zoom-in">GALERI</p>
@@ -276,7 +276,7 @@
                     </div>
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
-        </section> <!-- end of plans -->    
+        </section> <!-- end of Gallery -->     --}}
     
         <!-- Location -->
         <section class="location text-light" id="contact">
@@ -300,7 +300,7 @@
                         <div class="px-3"><i class="far fa-envelope fa-3x"></i></div>
                         <div class="ms-2">
                             <h6>Email</h6>
-                            <p>support@javateknologi.com</p>
+                            <p>marketing@javateknologi.com</p>
                         </div>
                     </div>
                 </div> <!-- end of row -->
